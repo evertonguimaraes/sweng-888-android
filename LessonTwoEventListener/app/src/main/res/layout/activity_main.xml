@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prime or Not Prime?"
+        android:layout_marginBottom="60dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/textViewTitle" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:hint="@string/editTextNumberHint"/>
+
+    <Button
+        android:id="@+id/buttonCheckPrimeNumber"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/buttonCheckIfPrime" />
+
+    <Button
+        android:id="@+id/buttonEraseNumberDelete"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/buttonDeleteInput" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:textColor="@color/new_green"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LessonTwoEventListener</string>
+
+    <!-- Creating new strings -->
+    <string name="textViewTitle">Type a number to see if Prime</string>
+    <string name="editTextNumberHint">Please only natural number</string>
+    <string name="buttonCheckIfPrime">Check If Prime</string>
+    <string name="buttonDeleteInput"> Delete </string>
+</resources>
