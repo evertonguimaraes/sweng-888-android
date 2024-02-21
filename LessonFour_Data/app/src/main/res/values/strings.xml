@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LessonFour_Data</string>
+
+    <!-- Strings for the Selection Activity -->
+    <string name="text_welcome_page"> Welcome to PSU Movie Theather </string>
+    <string name="text_all_movies"> Full list of movies </string>
+    <string name="text_movies_by_category"> Select the category of movies </string>
+    <string name="button_visualize_full_list"> Visualize Full List </string>
+    <string name="button_visualize_by_category"> Visualize By Category</string>
+
+    <string name="movie_category_prompt">Select a category</string>
+    <string name="floating_button_add">Add Movie</string>
+
+    <!-- Strings for the AddMovieActivity -->
+    <string name="add_new_movie"> Add New Movie </string>
+    <string name="back_to_selection_activity"> Go back </string>
+</resources>

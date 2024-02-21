@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F6F7FB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SelectionActivity">
+
+    <TextView
+        android:text="@string/text_welcome_page"
+        android:textColor="#00008B"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <ImageView
+        android:id="@+id/image_view_movie"
+        android:src="@mipmap/ic_popcorn_round"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/text_view_all_movies"
+        android:text="@string/text_all_movies"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_all_movies"
+        android:text="@string/button_visualize_full_list"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/text_view_movie_by_category"
+        android:text="@string/text_movies_by_category"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner_movie_category"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="40dp"
+
+        android:entries="@array/movie_categories"
+        android:prompt="@string/movie_category_prompt"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button_by_category_movies"
+        android:text="@string/button_visualize_by_category"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>

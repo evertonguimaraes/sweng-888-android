@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="0dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/movie_item" />
+
+    <LinearLayout
+        android:id="@+id/layout_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_back_to_selection_activity"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:text="@string/back_to_selection_activity" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/floating_button_add"
+            android:elevation="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_floating_button_plus"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
