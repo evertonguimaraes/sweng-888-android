@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/light_sky_blue"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:text="Welcome to Penn State"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/splash_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="322dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/penn_state_logo" />
+
+    <ProgressBar
+        android:id="@+id/splash_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerInParent="true" />
+
+</LinearLayout>
