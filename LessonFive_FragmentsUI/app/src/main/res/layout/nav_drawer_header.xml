@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/light_blue">
+
+    <ImageView
+        android:id="@+id/nav_drawer_header_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/penn_state_logo" />
+
+    <TextView
+        android:id="@+id/nav_drawer_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@id/nav_drawer_header_image"
+        android:text="@string/nav_drawer_title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/nav_drawer_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_drawer_header_title"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@id/nav_drawer_header_image"
+        android:text="@string/nav_drawer_subtitle"
+        android:textSize="16sp" />
+
+</RelativeLayout>

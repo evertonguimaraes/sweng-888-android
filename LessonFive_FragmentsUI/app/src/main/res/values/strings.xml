@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LessonFive_FragmentsUI</string>
+
+    <!-- Strings for the Navigation Drawer -->
+    <string name="nav_drawer_subtitle"> Subtitle </string>
+    <string name="nav_drawer_title"> Title </string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="nav_drawer_item_home"> Home </string>
+    <string name="nav_drawer_item_books"> List of Books </string>
+    <string name="nav_drawer_item_add_book"> Add Book </string>
+
+    <string name="frag_home_welcome"> Welcome - Home </string>
+    <string name="frag_books_list_welcome"> List of Books </string>
+    <string name="frag_add_book_welcome"> Add Book </string>
+
+    <!-- Frag 1 is AddNewBookFragment -->
+    <string name="frag_text_view_title">Title</string>
+    <string name="frag_text_view_author">Author</string>
+    <string name="frag_text_view_isbn">ISBN</string>
+    <string name="frag_text_view_publisher">Publisher</string>
+    <string name="frag_button_confirm">Confirm</string>
+    <string name="frag_button_clear">Clear</string>
+    <string name="frag_button_cancel">Cancel</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="fill_horizontal"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frag_add_book_welcome"
+        android:layout_marginBottom="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:text="@string/frag_text_view_title"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/home_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_author"
+        android:text="@string/frag_text_view_author"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/home_edit_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_isbn"
+        android:text="@string/frag_text_view_isbn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/home_edit_isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_publisher"
+        android:text="@string/frag_text_view_publisher"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/home_edit_publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:text="@string/frag_button_confirm"
+            android:layout_marginRight="10dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:text="@string/frag_button_clear"
+            android:layout_marginRight="10dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
