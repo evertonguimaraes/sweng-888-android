@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023737621767",
+    "project_id": "lessonfivefirebaseui",
+    "storage_bucket": "lessonfivefirebaseui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023737621767:android:2f988335478bc777be69a2",
+        "android_client_info": {
+          "package_name": "edu.psu.sweng888.lessonfive_firebaseui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023737621767-0g8fllegaugbia6raj6dmlg726ksukd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwO0hvtpKV7-SaPL1za0RXCoGkmUakTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023737621767-0g8fllegaugbia6raj6dmlg726ksukd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
