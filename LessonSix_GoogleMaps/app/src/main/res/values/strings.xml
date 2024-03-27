@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LessonSix_GoogleMaps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- Strings for the menu on the FloatingActionButton -->
+    <string name="map_clean"> Clean Map </string>
+    <string name="add_marker">Add Marker</string>
+    <string name="create_polylines">Create Polylines</string>
+    <string name="create_polygons">Create Polygons</string>
+</resources>
